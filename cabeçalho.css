@@ -1,0 +1,77 @@
+/* 
+RESETANDO E FORÇANDO QUE O CORPO DO MEU SITE TENHA
+0 DE MARGEM, PADDING E BORDER
+*/
+
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+
+.cabecalho{
+padding-top: 25px;
+background-color: black;
+height: 80px;
+width: 100%;
+
+}
+
+.caixa{
+    max-width: 1280px; /* 
+                             FAZ COM QUE A LARGURA MAXIMA DESSA CAIXA SEJA 1280px 
+                             ISSO FAZ COM QUE OS ELEMENTOS DENTRO DESSA CAIXA RESPEITEM
+                             A LARGURA MAXIMA DESSA CAIA, FAZENDO ASSIM, QUE OS ELEMENTOS DE
+                             DENTRO DA CAIXA NAO FIQUE 'COLADO' NAS EXTREMIDADES DA PAGINA
+   */
+height: 100%;
+margin: 0 auto;  /* O Zero signifca margem na cima e baixo e o auto e nas larguras */
+}
+
+/*
+ COLOCA A IMG (LOGO) PARA ESQUERDA E DEIXA ELA COM TAMANHO DE 150PX 
+*/
+
+
+
+.cabecalho img {
+width: 250 ;
+float: left;
+
+
+}
+
+
+/* FAÇO A NAVEGACAO FICAR A DIREITA */
+.cabecalho nav{
+ float: right;
+}
+ /* 
+POR PADRAO A LISTA VEM NO FORMATO DE BULLET
+DEIXANDO none, A LISTA FICA SEM ESTILO PADRAO
+ */
+
+
+ul{
+list-style: none;
+
+} 
+
+
+/* 
+OS ITENS DA LISTA VAO TER A COR DO TEXTO BRANCO
+POR PADRAO OS ITENS DA LISTA FICAM UM ABAIXO DO OUTRO
+COLOCANDO O DISPLAY INLINE, ELES FICAM UM AO LADO DO OUTRO
+E COLOCO UMA MARGEM NA ESQUERDA PARA QUE ELES NAO FIQUEM
+UM GRUDADO NO OUTRO
+ */
+
+ ul li{
+ color:white;
+ display: inline;
+ margin-left: 25px;
+ font-size: larger;
+
+ }

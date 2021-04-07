@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+
+
+
+/* /LOGIN/ */
+
+
+
+.p-login{
+  background-color: #ecf0f1;
+  text-align: center;
+  padding: 64px 0;
+}
+
+.login {
+color: orangered;
+
+}
+
+.caixa-login{
+  display: inline-block;
+  background-color: white;
+  box-shadow: 3px 3px 5px 2px #ccc;
+  padding: 40px 20px 40px 20px;
+  border-radius: 20px;
+  width: 400px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.input-padrao{
+  margin: 5px 3px 4px -1px;
+  height: 22px;
+  width: 150px;
+  border-radius: 5px;
+  border-color: rgba(128, 128, 128, 0.26);
+}
+
+.btn-laranja{
+  color: white;
+  background-color:  orangered;
+  margin: 20px 0 50px 0;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.pag-login .btn-green{
+  display: block;
+  float: none;
+  margin: auto;
+  margin-top: 2%;
+}
+
+/* RODAPÉ */
+
+.rodape{
+  background-color: orangered;
+  height: 101px;
+  /* margin-top: 1px; */
+}
+
+.rodape_texto{
+  text-align: center;
+  margin-left: 500px;
+  float: left;
+  padding: 40px;
+  color: white;
+  font-weight: 100;
+}

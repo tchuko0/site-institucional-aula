@@ -1,0 +1,40 @@
+body{
+
+    background-color:#ecf0f1;
+
+}
+
+.caixa_cadastro{
+
+    margin-left: 150px;
+    margin-top: 50px;
+    
+
+}
+
+.input_padrao{
+
+    width: 500px;
+    height: 25px;
+}
+
+.cadastro{
+
+    display: flex;
+    
+}
+
+.img_side{
+
+
+    width: 350px ;
+    padding: 30px 20px 0 300px;
+}
+
+.btn_cadastro{
+
+    background-color: green;
+    color: white;
+
+
+}
