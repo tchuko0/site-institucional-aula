@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.1.0/chart.min.js"
+        integrity="sha512-RGbSeD/jDcZBWNsI1VCvdjcDULuSfWTtIva2ek5FtteXeSjLfXac4kqkDRHVGf1TwsXCAqPTF7/EYITD0/CTqw=="
+        crossorigin="anonymous"></script>
+    <title>Grafico</title>
+</head>
+
+<body>
+    <div style="width: 500px; height: 500px;">
+        <canvas id="chart" width="400px" height="400px">
+    </div>
+    </canvas>
+</body>
+
+</html>
+
+<script>
+    var ctx = chart.getContext('2d');
+    var myChart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro'],
+            datasets: [{
+                label: 'Compras online',
+                data: [0, 3, 6, 9, 14, 21, 26, 28, 24],
+                borderColor: [
+                    'blue',
+                    'blue',
+                    'blue',
+                    'blue',
+                    'blue',
+                    'blue',
+                    'blue',
+                    'blue',
+                    'blue'
+                ],
+                borderWidth: 2
+            }]
+        },
+        options: {
+            scales: {
+                y: {
+                    beginAtZero: true
+                }
+            }
+        }
+    });
+</script>
